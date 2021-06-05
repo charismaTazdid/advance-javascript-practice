@@ -40,10 +40,10 @@ const crush = [
     { name: 'Nafisa', color: 'Ivory', id: 21 },
     { name: 'Bipasha', color: 'Honey', id: 19 },
     { name: 'Afra', color: 'Beige', id: 03 }
-]
+];
 const getName = crush.map(c => c.name);
-console.log(getName); // we got my crush name. 
+console.log(getName); //well, we got my crush's name. 
 const getColor = crush.map(c => c.color);
-console.log(getColor) // we got my crush's color
+console.log(getColor) // we got my crush's color information
 const getId = crush.map(c => c.id);
 console.log(getId); // we got their id
